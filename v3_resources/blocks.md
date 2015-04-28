@@ -68,13 +68,12 @@ curl -H 'Accept: application/vnd.twitchtv.v3+json' -H 'Authorization: OAuth <acc
         "_links": {
           "self": "https://api.twitch.tv/kraken/users/test_user_troll"
         },
-        "updated_at": "2013-02-06T22:44:19Z",
         "display_name": "test_user_troll",
-        "type": "user",
-        "bio": "I'm a troll.. Kappa",
         "name": "test_user_troll",
+		"staff": false,
         "_id": 13460644,
         "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/test_user_troll-profile_image-9e4de45c9e6744ac-300x300.png",
+		"updated_at": "2013-02-06T22:44:19Z",
         "created_at": "2010-06-30T08:26:49Z"
       },
       "_id": 970887
@@ -109,14 +108,13 @@ curl -H 'Accept: application/vnd.twitchtv.v3+json' -H 'Authorization: OAuth <acc
     "_links": {
       "self": "https://api.twitch.tv/kraken/users/test_user_troll"
     },
-    "updated_at": "2013-01-18T22:33:55Z",
-    "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/test_user_troll-profile_image-c3fa99f314dd9477-300x300.jpeg",
-    "type": "user",
-    "bio": "I'm a troll.. Kappa",
     "display_name": "test_user_troll",
-    "name": "test_user_troll",
-    "_id": 22125774,
-    "created_at": "2011-05-01T14:50:12Z"
+	"name": "test_user_troll",
+	"staff": false,
+	"_id": 13460644,
+	"logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/test_user_troll-profile_image-9e4de45c9e6744ac-300x300.png",
+	"updated_at": "2013-02-06T22:44:19Z",
+	"created_at": "2010-06-30T08:26:49Z"
   },
   "_id": 287813
 }
